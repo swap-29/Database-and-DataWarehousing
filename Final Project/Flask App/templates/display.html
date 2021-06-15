@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test1</title>
+</head>
+<body>
+    <form method="GET" action="/">
+    <table style='border:1px solid black'>
+        {%for each in values%}
+        <tr style='border:1px solid black'>{%for value in each%}
+            <td style='border:1px solid black'>{{value}}</td>
+            {%endfor%}
+        </tr>
+        {%endfor%}
+        
+    </table>
+    <input type="submit" value="Return to query">
+    </form>
+
+
+</body>
+</html>

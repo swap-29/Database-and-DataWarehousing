@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+</head>
+<body style="background-color: #e4fbff;">
+    <div style="align-items: center;padding-left: 450px;">
+    
+    
+        <img src="{{url_for('static',filename='styles/img/logo1.png') }}" style="background-color:#e4fbff;">
+        <br>
+        <h1> Car Heaven</h1>
+    
+    
+        <form  method ="POST" action="/form_submit">
+            Enter your query : <input type="text" name="text">
+            <input type="submit" name= "submit">
+        </form>
+        
+    </div>
+    
+    
+</div>
+</body>
+</html>
